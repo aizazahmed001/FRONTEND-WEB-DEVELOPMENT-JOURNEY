@@ -1,0 +1,13 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+button{
+    height: 70px;
+    width: 70px;
+    padding: 10px 15px;
+    margin: 100px;
+    border: 2px dotted red;
+    border-radius: 34px;
+}

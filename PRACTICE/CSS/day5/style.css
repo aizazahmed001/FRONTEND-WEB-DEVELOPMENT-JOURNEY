@@ -1,0 +1,41 @@
+*{
+    margin: 0px; padding: 0px;
+
+}
+nav{
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 5px;
+
+}
+
+header{
+    background-color: gray;
+    height: 30px;
+}
+#second{
+
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    margin: 5px;
+    display: inline-block;
+}
+#container{
+    border: 3px solid;
+}
+
+#box4{
+    position: fixed;
+    right: 10px; 
+}

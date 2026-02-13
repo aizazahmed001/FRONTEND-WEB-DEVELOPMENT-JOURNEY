@@ -1,0 +1,29 @@
+*{
+    margin: 0px; padding: 0px;
+
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    /* padding: 5px;
+    margin: 50px; */
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: plum;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out; */
+    transition: all 0.5s ease-in;   
+    
+}
+
+.box:hover{
+    /* transform: rotate(270deg); */
+    /* transform: scale(2); */
+    transform: translate(50px,50px);
+    
+}

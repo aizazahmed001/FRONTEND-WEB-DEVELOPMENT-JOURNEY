@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <button class="bag-button" onclick="cartQuantity += 1;
+        document.querySelector('#cart-summary').innerText = `Your Bag has ${cartQuantity} items`;
+        ">Add to Bag</button>
+
+        <button class="wish-button" onclick="cartQuantity -= 1;
+        document.querySelector('#cart-summary').innerText = `Your Bag has ${cartQuantity} items`;">💓 WISHLIST</button>
+
+         <button class="bag-button" onclick="cartQuantity += 2;
+        document.querySelector('#cart-summary').innerText = `Your Bag has ${cartQuantity} items`;">Add 1+1 Sale Item</button>
+       
+        <br>
+        <hr>
+
+        <h1 id="cart-summary"></h1>
+    <!-- <button class="class-button">Click</button>
+    <button id="id-button">Id Button</button>
+    <button class="class-button">Class Button</button>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, ratione?</p> -->
+    </main>
+<script src="script.js"></script>
+
+</body>
+</html>
